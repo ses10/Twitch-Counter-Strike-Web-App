@@ -1,0 +1,12 @@
+.container {
+  /***Main Content Styling***/ }
+  .container .main-content #streamList {
+    margin-top: 20px;
+    padding: 0px;
+    width: 100%;
+    overflow-x: scroll;
+    white-space: nowrap; }
+    .container .main-content #streamList .streams {
+      display: inline-block; }
+
+/*# sourceMappingURL=style.css.map */

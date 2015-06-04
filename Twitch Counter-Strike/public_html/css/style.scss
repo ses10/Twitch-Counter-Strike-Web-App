@@ -1,0 +1,21 @@
+.container{
+    
+    /***Main Content Styling***/
+    .main-content{
+        
+        
+        
+        #streamList{
+            margin-top: 20px;
+            padding: 0px; 
+            width: 100%;
+            overflow-x: scroll;
+            white-space: nowrap;
+            
+            .streams{
+                display:inline-block;
+                               
+            }
+        }
+    }
+}
