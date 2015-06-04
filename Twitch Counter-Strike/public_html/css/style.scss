@@ -13,8 +13,11 @@
             white-space: nowrap;
             
             .streams{
-                display:inline-block;
-                               
+                display:inline-block;                               
+            }
+            
+            .streams:hover{
+                background-color: lightgrey; 
             }
         }
     }

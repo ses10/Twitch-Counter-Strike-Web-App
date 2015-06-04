@@ -8,5 +8,7 @@
     white-space: nowrap; }
     .container .main-content #streamList .streams {
       display: inline-block; }
+    .container .main-content #streamList .streams:hover {
+      background-color: lightgrey; }
 
 /*# sourceMappingURL=style.css.map */
