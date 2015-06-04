@@ -5,9 +5,39 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         
         <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
-        <script src="jquery-2.1.4.min.js" type="text/javascript"></script>
+        <link href="css/style.css" rel="stylesheet" type="text/css">
+        
+        <script src="js/jquery-2.1.4.min.js" type="text/javascript"></script>
+        <script src="js/script.js" type="text/javascript"></script>
     </head>
     <body>
-        <div class="container">TODO write content</div>
+        <div class="container">
+            
+            <div class="row header">
+                <h1>Counter-Strike GO Streams</h1>
+            </div>
+            
+            <div class="row main-content">
+                
+                
+                
+                <div id="mainStream" >
+                    <h2 id="stream-title"></h2>
+                    <object id="twitch-player" type="application/x-shockwave-flash" height="378" width="620" data="http://www.twitch.tv/widgets/live_embed_player.swf?channel=" bgcolor="#000000">
+                        <param name="allowFullScreen" value="true" />
+                        <param name="allowScriptAccess" value="always" />
+                        <param name="wmode" value="transparent" />
+                        <param name="allowNetworking" value="all" />
+                        <param name="movie" value="http://www.twitch.tv/widgets/live_embed_player.swf" />                
+                    </object>
+                </div>
+                                
+                <ul id="streamList" >
+                </ul>            
+                                                
+            </div><!--End main-content-->
+            
+            
+        </div>
     </body>
 </html>
