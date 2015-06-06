@@ -22,16 +22,23 @@
                 
                 
                 <div id="mainStream" >
-                    <h2 id="stream-title"></h2>
-                    <object id="twitch-player" type="application/x-shockwave-flash" height="378" width="620" data="http://www.twitch.tv/widgets/live_embed_player.swf?channel=">
-                        <param name="allowFullScreen" value="true" />
-                        <param name="allowScriptAccess" value="always" />
-                        <param name="wmode" value="transparent" />
-                        <param name="allowNetworking" value="all" />
-                        <param name="movie" value="http://www.twitch.tv/widgets/live_embed_player.swf" />                
-                    </object>
+                    <div id="streamHolder" class="col-md-7">
+                        <h2 id="stream-title"></h2>
+                        <object id="twitch-player" type="application/x-shockwave-flash" height="378" width="620" data="http://www.twitch.tv/widgets/live_embed_player.swf?channel=">
+                            <param name="allowFullScreen" value="true" />
+                            <param name="allowScriptAccess" value="always" />
+                            <param name="wmode" value="transparent" />
+                            <param name="allowNetworking" value="all" />
+                            <param name="movie" value="http://www.twitch.tv/widgets/live_embed_player.swf" />                
+                        </object>
+                    </div>
+                    
+                    <div id="chat" class="col-md-5">
+                        <iframe src="http://www.twitch.tv/izakooo/chat?popout=" frameborder="0" scrolling="no" height="500" width="450">                        
+                        </iframe>
+                    </div>
                 </div>
-                                
+                                                
                 <ul id="streamList" >
                 </ul>            
                                                 
