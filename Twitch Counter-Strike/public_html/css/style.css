@@ -1,5 +1,12 @@
 .container {
   /***Main Content Styling***/ }
+  .container .main-content #mainStream #streamHolder {
+    padding: 0; }
+  .container .main-content #mainStream #chat {
+    padding: 0; }
+    .container .main-content #mainStream #chat iframe {
+      height: 500px;
+      width: 100%; }
   .container .main-content #streamList {
     margin-top: 20px;
     padding: 0px;

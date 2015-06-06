@@ -3,8 +3,24 @@
     /***Main Content Styling***/
     .main-content{
         
-        
-        
+        #mainStream{
+            
+            #streamHolder{
+                padding: 0;
+            }
+            
+            #chat{
+                padding: 0;
+                
+                iframe{
+                    height: 500px;
+                    width: 100%;
+                }
+            }
+            
+            
+        }
+         
         #streamList{
             margin-top: 20px;
             padding: 0px; 
